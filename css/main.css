@@ -1,0 +1,28 @@
+body  {background: #323232;
+}
+h1{
+    font-family: JetBrains Mono;
+    font-weight: normal;
+    text-align: center;
+    color: #E8BF6A;
+
+}
+h2{
+    font-family: JetBrains Mono;
+    color: #CC7832;
+    font-weight: normal;
+}
+h3{
+    font-family: JetBrains Mono;
+    font-weight: normal;
+    color: #6897BB;
+
+}
+p{
+    font-family: JetBrains Mono;
+    font-weight: lighter;
+    color: #A9B7C6;}
+a{
+    font-family: JetBrains Mono;
+    font-weight: lighter;
+    color: #E8BF6A;}
