@@ -93,38 +93,46 @@ body {
 }
 
 .container_12 .grid_4 {
-  background-image: url("picture 5.jpg");
+  background-image: url("concrete1.jpg");
   background-size: cover;
   width: 300px;
-  height: 500px;
+  height: 400px;
+  
 }
 
 .container_12 .grid_5 {
-  background-image: url("concrete1.jpg");
+  background-image: url("concrete2.jpg");
   background-size: cover;
 
   width: 300px;
-  height: 500px;
+  height: 400px;
 }
 
 .container_12 .grid_6 {
   background-image: url("concrete3.jpg");
   background-size: cover;
   width: 300px;
-  height: 500px;
+  height: 400px;
 
 }
 
 .container_12 .grid_7 {
-  width: 540px;
+  background-image: url("concrete4.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 400px;
 }
 
 .container_12 .grid_8 {
-  width: 620px;
+  background-color: #778da9;
+  width: 300px;
+  height: 400px;
 }
 
 .container_12 .grid_9 {
-  width: 700px;
+  background-color: #778da9;
+  width: 300px;
+  height: 400px;
 }
 
 .container_12 .grid_10 {

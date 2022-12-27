@@ -6,9 +6,10 @@
     }
     #footer{
       font-family: Arial, Verdana, sans-serif;
-      color: #0d1b2a;
+      color: black;
       text-align: center;
       background-color: #e0e1dd;
+      opacity: 80%;
       margin-top: 20px;
       padding: 10px 0px 5px 0px;
       }
@@ -43,6 +44,7 @@
         text-shadow: 1px 1px 0px black;
         font-weight: bold;
         text-align: center;
+        
         }
       .grid_5{
         font-family: Arial, Verdana, sans-serif;
@@ -58,6 +60,27 @@
          font-weight: bold;
          text-align: center;
         }
+        .grid_7{
+          font-family: Arial, Verdana, sans-serif;
+          color: white;
+          text-shadow: 1px 1px 0px black;
+          font-weight: bold;
+          text-align: center;
+         }
+         .grid_8{
+          font-family: Arial, Verdana, sans-serif;
+          color: white;
+          text-shadow: 1px 1px 0px black;
+          font-weight: bold;
+          text-align: center;
+         }
+         .grid_9{
+          font-family: Arial, Verdana, sans-serif;
+          color: white;
+          text-shadow: 1px 1px 0px black;
+          font-weight: bold;
+          text-align: center;
+         }
          
         
             
@@ -68,8 +91,9 @@ body {
         background-color: #778da9;
     color: #0d1b2a;
     background-image: url("rileyconcrete.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    opacity: 90%;
   }
   
   
