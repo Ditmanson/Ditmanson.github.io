@@ -1,0 +1,30 @@
+#header{
+    text-align: center;
+    color:black;
+    text-shadow: 2px 1px 0px white ;
+}
+
+#footer {
+    text-align: center;
+    color:black;
+    text-shadow: 2px 1px 0px white ;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+li>a{
+    
+    font-weight: bold ;
+    color: black ;
+    text-shadow: 2px 1px 0px white ;
+
+}

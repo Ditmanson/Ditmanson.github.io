@@ -1,0 +1,15 @@
+@import url(text.css);
+@import url(img.css);
+@import url(slider.css);
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, #778da9,white, #778da9 );
+          color: #0d1b2a;
+   
+  }
+  #footer{
+    bottom: 1px;
+  }
