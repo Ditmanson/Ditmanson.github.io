@@ -25,7 +25,7 @@
     opacity: 1;
 }
 
-.carousel-button-prev{
+.carousel-button {
     z-index: 2;
     position: absolute;
     background: none;
@@ -38,27 +38,18 @@
     border-radius:.25rem;
     padding: 0 .5rem;
     background-color: rgba(0,0,0,.1);
-    left: 1rem;
     
 }
-.carousel-button-next{
-    z-index: 2;
-    position: absolute;
-    background: none;
-    border: none;
-    font-size: 3rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color:floralwhite;
-    opacity: .5;
-    border-radius:.25rem;s
-    padding: 0 .5rem;
-    background-color: rgba(0,0,0,.1);
-    right: 1rem;
-}
-.carousel-button-next:hover, .carousel-button-next:focus,
-.carousel-button-prev:hover, .carousel-button-prev:focus {
+
+
+.carousel-button:hover, .carousel-button:focus
+{
     color: #0d1b2a;
-    background-color: rgba(0,0,0,.2);
+    background-color: floralwhite;
+}
+.carousel-button.prev{
+    left: 1rem;
 }
 
+.carousel-button.next{
+    right: 1rem;}

@@ -1,49 +1,20 @@
-let sliderImages = document.querySelectorAll(".slide"),
-    arrowLeft = document.querySelector("#arrow-left"),
-    arrowRight = document.querySelector("#arrow-right"),
-    current = 0;
 
-// Clear all images
-function reset() {
-    for (let i = 0; i < sliderImages.length; i++) {
-        sliderImages[i].style.display = "none";
-    }
-}
+const buttons = document.querySelectorAll("[data-carosel-button]")
 
-// Initial slide
-function startSlide() {
-    reset();
-    sliderImages[0].style.display = "block";
-}
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        const offset = button.dataset.carouselButton === "next" ? 1 : -1
+        const slides = button
+            .closest("[data-carousel]")
+            .querySelector("[data-slides]")
 
-// Show previous
-function slideLeft() {
-    reset();
-    sliderImages[current - 1].style.display = "block";
-    current--;
-}
+        const activeSlide = slides.querySelector("[data-active]")
+        let newIndex = [...slides.children].indexOf(activeSlide) + offset
 
-// Show next
-function slideRight() {
-    reset();
-    sliderImages[current + 1].style.display = "block";
-    current++;
-}
+        if (newIndex < 0) newIndex = slides.children.length - 1
+        if (newIndex >= slides.children.length) newIndex = 0
 
-// Left arrow click
-arrowLeft.addEventListener("click", function () {
-    if (current === 0) {
-        current = sliderImages.length;
-    }
-    slideLeft();
-});
-
-// Right arrow click
-arrowRight.addEventListener("click", function () {
-    if (current === sliderImages.length - 1) {
-        current = -1;
-    }
-    slideRight();
-});
-
-startSlide();
+        slides.children[newIndex].dataset.active = true
+        delete activeSlide.dataset.active
+    })
+})
