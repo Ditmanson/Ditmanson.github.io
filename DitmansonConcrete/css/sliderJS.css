@@ -6,6 +6,8 @@
     width:100vw;
     height:100vh;
     position:absolute;
+    overflow: hidden;
+
 }
 .slide{
     position: absolute;
@@ -15,6 +17,8 @@
     transition: 200ms opacity ease-in-out;
     transition-delay: 200ms;
     border: black solid;
+    overflow: hidden;
+
 }
 .slide > img {
     display: block;
@@ -22,6 +26,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    overflow: hidden;
 }
 
 .slide[data-active]{
