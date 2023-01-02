@@ -11,19 +11,22 @@
 }
 .slide{
     position: absolute;
-    left: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     right: 10%;
     opacity:0;
     transition: 200ms opacity ease-in-out;
     transition-delay: 200ms;
-    border: black solid;
+   
     overflow: hidden;
 
 }
 .slide > img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 70%;
+    
+    border: black solid;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
