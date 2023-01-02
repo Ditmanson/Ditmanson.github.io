@@ -11,9 +11,11 @@ body {
    
   }
   #footer{
-    position: relative;
+    position: fixed;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 800px;
+    bottom: 1px;
+    background-color: rgba(119 ,141, 169, .2) ;
+    z-index: 2;
   }
