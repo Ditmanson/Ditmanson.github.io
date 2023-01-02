@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll("[data-carosel-button]")
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
-        const offset = button.dataset.carouselButton === "next" ? 1 : -1
+        const offset = button.dataset.caroselButton === "next" ? 1 : -1
         const slides = button
             .closest("[data-carousel]")
             .querySelector("[data-slides]")

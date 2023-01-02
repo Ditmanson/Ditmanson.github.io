@@ -8,10 +8,13 @@
     position:absolute;
 }
 .slide{
-    position:absolute;
-    inset:0;
+    position: absolute;
+    left: 10%;
+    right: 10%;
     opacity:0;
-    
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+    border: black solid;
 }
 .slide > img {
     display: block;
@@ -23,6 +26,8 @@
 
 .slide[data-active]{
     opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
 }
 
 .carousel-button {

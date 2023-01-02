@@ -11,9 +11,9 @@ body {
    
   }
   #footer{
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-     text-align: center;
-    bottom: 1px;
+    text-align: center;
+    top: 800px;
   }
