@@ -1,7 +1,6 @@
 #header{
     text-align: center;
     color:black;
-    text-shadow: 2px 1px 0px white ;
 }
 
 #footer {
@@ -25,6 +24,5 @@ li>a{
     
     font-weight: bold ;
     color: black ;
-    text-shadow: 2px 1px 0px white ;
 
 }
