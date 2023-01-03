@@ -76,6 +76,7 @@ body{
         background-color: rgba(225 ,225, 225, .2) ;
         z-index: 2;
       }
+      
       #headerSlider{
         position: fixed;
         top: 10px;
@@ -85,5 +86,14 @@ body{
         background-color: rgba(225 ,225, 225, .5) ;
         z-index: 2;
       }
-    
+      li {
+        display: inline;
+        padding: 10px;
+         }
+         li>a {
+
+            font-weight: bold;
+            color: black;
+        
+        }
   
