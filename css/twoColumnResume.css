@@ -1,0 +1,26 @@
+@import url(main.css);
+.nav>ul>li{
+       display: inline;
+}
+
+.nav>ul{
+    text-align: center;
+}
+.column1{
+    float: left;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid white;
+    border-color: rgba(225, 225, 225, .5);
+}
+
+.column2{
+    float: left;
+    width: 75%;
+    margin: 10px;
+    border: 1px solid white;
+    border-color: rgba(225, 225, 225, .5);}
+
+.column2>h2{
+    text-align: center;
+}
