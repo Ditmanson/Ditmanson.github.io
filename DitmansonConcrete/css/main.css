@@ -1,6 +1,6 @@
 @import url(text.css);
 @import url(img.css);
-
+@import url(portfolio.css);
 
 
 body {
@@ -11,8 +11,8 @@ body {
    
   }
   #footer{
-    position: absolute; 
-    bottom: 10px;
+    position: fixed; 
+    bottom: 2px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
