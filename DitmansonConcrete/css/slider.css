@@ -61,13 +61,23 @@ li>*{
 .container{ 
     inline-size: max(50% - 1%, 90%);
     margin-inline: auto;
+    color:floralwhite;
+    }
+
+h1, h2, h3, h4, h5, h6{
+    color:floralwhite;
+}
+.container>h3>a{
+    color:floralwhite; 
+    
+}
+.container>h3>a:hover{
+    color:black;
+    background-color: floralwhite;
 }
 
 .flow{
     display: grid;
     gap: var(--size-3);
 
-}
-.contact{
-    color:black;
 }
