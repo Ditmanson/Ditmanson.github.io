@@ -1,0 +1,73 @@
+@import url(https://unpkg.com/open-props);
+@import url(https://unpkg.com/open-props/normalize.min.css);
+
+body{
+    background: radial-gradient(#778da9, #0d1b2a);
+}
+
+.header {
+    text-align: center;
+    color: floralwhite;
+    z-index: 1;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+li>*{
+    color: floralwhite; 
+}
+
+.media-scroller {
+    --_spacer: 3px;
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow:column;
+    grid-auto-columns: 41%;
+    overflow-x:auto;
+    overscroll-behavior-inline: contain;
+    padding:  var(--_spacer);
+
+}
+
+.media-element {
+    
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-5);
+}
+
+.media-element > img {
+    inline-size:100%;
+    aspect-ratio: 16/9;
+    display: block;
+    object-fit: cover;
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory ;
+    scroll-padding-inline: var(--_spacer);
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
+
+.container{ 
+    inline-size: max(50% - 1%, 90%);
+    margin-inline: auto;
+}
+
+.flow{
+    display: grid;
+    gap: var(--size-3);
+
+}
+.contact{
+    color:black;
+}
