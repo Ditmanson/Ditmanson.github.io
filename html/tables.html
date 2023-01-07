@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="../css/tables.css">
+</head>
+
+<body>
+    <div class="calendar">
+        <table>
+            <h2>February</h2>
+            <tr>
+                <div class="floatbox">
+                    <p>css for the calendar looks like this <br> .calendar table *{ <br>
+                        border: 1px solid black;<br>
+                        } <br>
+                        .calendar table th { <br>
+                        background-color: aquamarine; <br>
+                        } <br>
+                        .calendar table td { <br>
+                        background-color: azure; <br>
+                        text-align: center; <br>
+                        }</p>
+                </div>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="schedule">
+        <table>
+            <tr>
+                <th>
+                </th>
+                <th>8am</th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Python</td>
+                <td>Java</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>CSS</td>
+                <td colspan="2">
+                </td>
+                <td>JavaScript</td>
+            </tr>
+        </table>
+    </div>
+    <p>For the schedule's CSS: <br>
+
+        .schedule table { <br>
+        border-collapse: collapse; <br>
+        empty-cells:hide; <br>
+        } <br>
+        .schedule table th { <br>
+        border: 2px solid black; <br>
+        } <br>
+        .schedule table tr { <br>
+        border: 2px solid black; <br>
+
+        }br
+        .schedule table td {<br>
+        border: 1px solid black;<br>
+        padding: 1em;<br>
+        }br
+    </p>
+
+
+</body>
+
+</html>

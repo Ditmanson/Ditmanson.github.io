@@ -1,0 +1,32 @@
+body{
+    background: radial-gradient( floralwhite, aquamarine);
+}
+p{
+    position:relative;
+}
+.floatLeft{
+    position: relative;
+        float:left;
+        border: 5px solid;
+        border-color: red;
+        border-bottom-color: darkcyan;
+        border-top-color: darkcyan;
+        border-radius: 2em;
+        margin-right:1em;
+        padding:1px;
+}
+.floatLeft>img{
+    display:block;
+    border-radius: 2em;
+}
+
+.floatRight{
+    border: 5px dashed black;
+    background-color: beige;
+    border-radius: 5px;
+    float:right;
+}
+h1{
+    color: coral;
+    text-shadow: black 1px 2px 2px;
+}

@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(45deg, darkcyan, grey,grey, darkcyan);
+  }
+  .lowerRomans{
+    color:#FFA07A;
+    font-size: large;
+    text-shadow: black 1px 1px;
+  }
+  .lowerRomans>ol{
+    list-style-type:lower-roman;
+  }
+
+  .styledList{
+    color:antiquewhite;
+    text-shadow: black 1px 1px;
+    font-size: larger;
+  }
+  .styledList>ul{
+    margin: 25px;
+    list-style-type:square;
+  }

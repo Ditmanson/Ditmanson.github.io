@@ -1,0 +1,33 @@
+body {
+    background: radial-gradient( floralwhite, aquamarine);
+  }
+
+.afterOnly::after{
+    content:'';
+    background-color: red;
+    display: block;
+    width:30%;
+    height: 10px;
+}
+
+.beforeAndAfter p::before,.beforeAndAfter p::after{
+    content:'*';
+    font-size: xx-large;
+    background-color: yellow;
+}
+.firstLetter::first-letter{
+    text-transform: capitalize;
+}
+.firstLetter p::first-letter{
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: bold;
+}
+.firstLine::first-line {
+    
+    margin: auto;
+    font-size: large;
+    color: azure;
+    background-color: blueviolet;
+    opacity: .5;
+}

@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
+.floatbox{
+    position: relative;
+    font-size: larger;
+    float:right;
+    max-width:45%;
+    min-width: 25%;
+    margin-right:2em;
+    text-align: left;
+    font-weight: bold ;
+    border: 5px dotted black;
+    background: radial-gradient(white, lightgrey);
+}
+.floatbox>p{
+    margin-left:1em;
+}
+.calendar table *{
+        border: 1px solid black;
+}
+.calendar table th {
+    background-color: aquamarine;
+}
+.calendar table td {
+    background-color: azure;
+    text-align: center;
+}
+
+.schedule table {
+    background-color: white;
+    border-collapse: collapse;
+    empty-cells:hide;
+}
+.schedule table th {
+    border: 2px solid black;
+}
+.schedule table tr {
+    border: 2px solid black;
+
+}
+.schedule table td {
+    border: 1px solid black;
+    padding: 1em;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+    color: #800002;
+}
