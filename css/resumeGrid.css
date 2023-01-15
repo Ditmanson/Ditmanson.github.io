@@ -1,26 +1,55 @@
 
+@import "https://unpkg.com/open-props";
+
+*,
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-sans);
+    font-size: var(--font-size-3);
+    background: var(--gradient-16);
+    
+}
 
 .header {text-align: center;
-    background-color: lightgray;
-    height: 15rem;
+    background: var(--gray-9);
+    padding-block: var(--size-10);
+    margin-block-end: var(--size-8);
+    box-shadow: var(--shadow-4) ;
+    color:var(--sand-2);
+
 }
 
 .in-line{
     margin: auto;
 }
+
 a{
-    color:black;
+color:var(--sand-3);
+transition-duration:500ms;
+/* transition-property: background, outline, width; */
 }
 a:hover{
     font-size: larger;
-    color:maroon;
-    background-color: white;
-    outline: 1px solid white;
+    color:var(--brown-2);
+    background-color: var(--sand-9);
+    outline: 1px solid var(--sand-9);
     outline-offset: 3px;
     border-radius: 1%;
 
 }
 
+.grid-columns{
+    margin:auto;
+}
+ h2{
+    color:  var(--brown-3) ;
+}
+h3{
+    color:var(--brown-1)
+}
 
 .in-line li{
     text-align: center;
@@ -34,5 +63,12 @@ a:hover{
     grid-template-columns: 1fr 3fr;
 }
 .column{
-    background: lightgray;
+    background: var(--gray-9);
+    color:var(--sand-2);
+    box-shadow: var(--shadow-4) ;
+
+}
+.column:first-child{
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
