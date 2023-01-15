@@ -1,0 +1,38 @@
+
+
+.header {text-align: center;
+    background-color: lightgray;
+    height: 15rem;
+}
+
+.in-line{
+    margin: auto;
+}
+a{
+    color:black;
+}
+a:hover{
+    font-size: larger;
+    color:maroon;
+    background-color: white;
+    outline: 1px solid white;
+    outline-offset: 3px;
+    border-radius: 1%;
+
+}
+
+
+.in-line li{
+    text-align: center;
+    display:inline;
+    padding: 1%;
+}
+.grid-columns{
+    margin: 5px;
+    gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.column{
+    background: lightgray;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    margin:0;
+}
+.container{
+    margin:0px;
+    display:grid;
+    grid-template-columns: 1fr;
+    outline: 1px solid black;
+}
+.container img{
+width: 100%;
+max-height: 100%;
+}
+.card{
+ margin: 0px;
+    width: 95%;
+    text-align: center;
+}
+
+.red::after{
+    background-color: red;
+    content: '';
+    display:block;
+    width: 1em;
+    height:1em;
+}
+.blue::after{
+    background-color: blue;
+    content: '';
+    display:block;
+    width: 1em;
+    height:1em;
+}
+#test{
+    font-size: larger;
+}

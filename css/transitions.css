@@ -1,0 +1,78 @@
+body{
+    margin:100px;
+    background-color: floralwhite;
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+}
+
+.rotation{
+    width:300px;
+    height:300px;
+    background:aqua;
+    transition-duration:500ms;
+    transition-property: background, transform;
+}
+.rotation:hover{
+    background:red;
+    transform: rotate(45deg)
+}
+
+.container{
+    margin-top: 1em;
+    transition-duration:1000ms;
+}
+.container:hover{
+    }
+
+.box{
+    height:20%;
+    width:200px;
+    background: aquamarine;
+    transition-duration:1000ms;
+    transition-property: background, transform, width;
+    margin-bottom: 1em;
+}
+
+.box:hover{
+    background:aqua;
+    width:500px;
+}
+
+.one{
+    transition-timing-function: linear;
+}
+
+.two{
+    transition-timing-function: ease-in;
+}
+
+.three{
+    transition-timing-function: ease-out;
+}
+
+.four{
+    transition-timing-function: ease-in-out;
+}
+
+.button{
+    position:relative;
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    vertical-align: bottom;
+    width: 80px;
+    height: 30px;
+    background-color: teal;
+    border-radius: 5px;
+    outline: 2px solid white;
+    transition-duration: 500ms;
+}
+
+.button:hover{
+    outline-offset: -4px;
+    background-color: cadetblue;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+
+.testomonial-grid{
+    display: grid;
+    gap: 1em;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+
+}
+
+.testimonial{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+.testimonial img{
+    width:100%;
+    display:block;
+    border-radius: 5%;
+}
+@media (min-width:40em){
+    .testomonial-grid{
+    grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-span-2{
+        grid-column: span 2;
+    }
+
+    .testimonial:last-child{
+        grid-column:4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+     }
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/grid.css">
+</head>
+
+<div>
+    <h1>
+        Let's try some grid features out.
+    </h1>
+
+
+    <h2>ok so lets make some color boxes</h2>
+<p>first we need to make a div container</p>
+<div class="grid-container">
+    <div class="box cyan">This is written between the div
+    </div>
+    <div class="box teal">What's really neat is setting the grid-template columns to fractions
+        of space but using the @media (min-width: XXem) options
+    </div>
+    <div class="box forestgreen"> <h2>here's a header
+    </h2> <p>and here's a p tag</p></div>
+
+    <div class="box white">white</div>
+    <div class="box grey">grey</div>
+    <div class="box black">black</div>
+</div>
+
+<h2>here's some card stuff</h2>
+
+
+
+    <div class="container margin-block-500"></div>
+
+
+    <div class="grid-even-columns">
+        <div class="flow">
+            <img src="../imgs/Picture1.jpg" alt="we'll get to it" class="icon">
+            <h3 class="fs-400 fw-bold">
+                Subtitle
+            </h3>
+            <p>It's neat how when you use an image you can add text to make a card</p>
+        </div>
+        <div class="flow">
+            <img src="../imgs/Picture2.jpg" alt="we'll get to it" class="icon">
+            <h3 class="fs-400 fw-bold">
+               to do this we are using <br>display:grid; <br>grid-column-template:1fr 1fr
+            </h3>
+            <p>some words</p>
+        </div>
+        <div class="flow">
+            <img src="../imgs/Picture3.jpg" alt="we'll get to it" class="icon">
+            <h3 class="fs-400 fw-bold">
+                secure
+            </h3>
+            <p>some words</p>
+        </div>
+        <div class="flow">
+            <img src="../imgs/Picture4.jpg" alt="we'll get to it" class="icon">
+            <h3 class="fs-400 fw-bold">
+               collaborate
+            </h3>
+            <p>some words</p>
+        </div>
+    </div>
+
+</body>
+</html>

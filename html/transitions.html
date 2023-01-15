@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/transitions.css">
+</head>
+<body>
+    <div class="rotation">
+        <p>So first we are going to set a transition-duration,
+            and we are going to also set a transform property.
+            the transform property is going to select the background color
+            and transform when the mouse hovers. to do this we need to use our pseudo
+            elements so for this div, it's <br> .rotation:hover{stuff }
+        </p>
+    </div>
+    <div class="container">
+        <div class="button">Button</div>
+
+        <div class="box one">linear
+            <p>for these  we are adjusting the transition-timing-function on each box
+                linear means the transition happens at a constant pace.
+            </p>
+        </div>
+        <div class="box two">eaase in
+            <p>ease in means we start slow and speed up at the end</p>
+
+        </div>
+        <div class="box three"> ease out
+<p>ease out means we start fast and end slow</p>
+        </div>
+        <div class="box four"> ease in and out 
+            <p>ease in and out means it's fastest in the middle</p>
+        </div>
+    </div>
+    <h2>oh yeah and the button</h2>
+    <p> so in order to do the button we have our transition properties
+        but we also have an outline in white. whith the hover our outline's offset becomes -4px
+    </p>
+    <div class="button">Button</div>
+</body>
+</html>
