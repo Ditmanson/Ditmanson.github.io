@@ -29,7 +29,7 @@ body{
 a{
 color:var(--sand-3);
 transition-duration:500ms;
-/* transition-property: background, outline, width; */
+transition-property: background, outline, outline-offset, font-size; 
 }
 a:hover{
     font-size: larger;
@@ -44,11 +44,11 @@ a:hover{
 .grid-columns{
     margin:auto;
 }
- h2{
+h2{
     color:  var(--brown-3) ;
 }
 h3{
-    color:var(--brown-1)
+    color:var(--brown-1);
 }
 
 .in-line li{
@@ -71,4 +71,7 @@ h3{
 .column:first-child{
     grid-row-start: 1;
     grid-row-end: 3;
+}
+h2::after{
+    content:":";
 }

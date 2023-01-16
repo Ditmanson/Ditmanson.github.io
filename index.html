@@ -3,25 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Two Column Resume</title>
-    <link rel="stylesheet" href="../css/twoColumnResume.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/resumeGrid.css">
 </head>
 
-
 <body>
-    <h1>Travis Ditmanson</h1>
-    <div class="nav">
-        <ul>
-            <li><a href="../html/portfolio.html">Portfolio</a></li>
-            <li><a href="../html/ResumeOneColumn.html">One Column Resume</a></li>
-            <li><a href="../DitmansonConcrete/HTML/DitmansonConcrete.html">Dad's Conrete</a></li>
-            <li><a href="../html/htmlSlider.html">Horizontal Slider</a></li>
-            <li><a href="../html/floats.html">Floats</a></li>
-            <li><a href="../html/lists.html">Lists</a></li>
-            <li><a href="mailto:travisditmanson@gmail.com">Contact</a></li>
-        </ul>
-        <div class=" column1">
-            <h2>Education</h2>
+    <div class="header">
+        <h1>Travis Ditmanson</h1>
+        <div class="navigation">
+            <div class="in-line">
+                <li><a href="../html/portfolio.html">Portfolio</a></li>
+                <li><a href="../DitmansonConcrete/HTML/DitmansonConcrete.html">Dad's Conrete</a></li>
+                <li><a href="../html/htmlSlider.html">Horizontal Slider</a></li>
+                <li><a href="../html/floats.html">Floats</a></li>
+                <li><a href="../html/lists.html">Lists</a></li>
+            </div>
+            <div class="in-line">
+                <li><a href="../html/forms.html">Forms</a></li>
+                <li><a href="../html/grid2area.html">Grid/Areas</a></li>
+                <li><a href="../html/grid2.html">Grid/Spans</a></li>
+                <li><a href="../html/tables.html">Tables</a></li>
+            </div>
+        </div>
+    </div>
+    <div class="grid-columns">
+        <div class="column">
+            <h2> Education</h2>
             <ul>
                 <li>Bachelors Of Science Computer Science <ul>
                         <li>University Of Colorado, Colorado Springs</li>
@@ -34,9 +43,7 @@
                     </ul>
                 </li>
             </ul>
-
-
-            <h2>Programming Languages:</h2>
+            <h2>Programming Languages</h2>
             <ul>
                 <li>Python</li>
                 <li>Java</li>
@@ -71,8 +78,6 @@
                 </ul>
             </li>
             </ul>
-
-
             <h2>Academic Skills</h2>
             <ul>
                 <li>Calculus 3</li>
@@ -95,9 +100,9 @@
                 <li>Recognized by White House for Security Mission</li>
             </ul>
         </div>
-        <div class="column2">
+        <div class="column">
             <h2>Work History</h2>
-            <h3>UCCS STEM Coach</h3>
+            <h3><u>UCCS STEM Coach</u></h3>
             <p>- Fostered passion and ambition for future scientists and engineers through various precollegiate courses
                 <br>
                 - Led two twenty hour courses on Aurduino programming and electronic design for 20 students<br>
@@ -105,7 +110,7 @@
                 drone
                 <br>
             </p>
-            <h3> United States Air Force Explosive Technician</h3>
+            <h3><u>United States Air Force Explosive Technician</u></h3>
             <p>
                 - TS/SCI Clearance<br>
                 - Successfully managed records, training schedules, and upgrade training for a team of 25 personnel over
@@ -117,7 +122,7 @@
                 procedures, effectively transferring knowledge and skills
                 <br>
             </p>
-            <h3>Leadership Experience</h3>
+            <h3><u>Leadership Experience</u></h3>
             <p>
                 - Successfully led small teams in multiple high-stakes Secret Service missions, including supporting the
                 protection of Presidents Obama and Trump, Vice Presidents Pence and Biden, Pope Frances, and the King of
@@ -130,9 +135,12 @@
                 munition disposal on foreign land.<br>
             </p>
         </div>
+    </div>
+    </div>
+
+
+    </div>
 
 </body>
-
-
 
 </html>
