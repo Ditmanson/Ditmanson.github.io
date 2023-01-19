@@ -75,3 +75,10 @@ h3{
 h2::after{
     content:":";
 }
+.other{
+    color:  var(--brown-3) ;
+    text-align: center;
+}
+b{
+    color:var(--red-8);
+}
